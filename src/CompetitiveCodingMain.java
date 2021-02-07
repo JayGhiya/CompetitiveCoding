@@ -1,13 +1,25 @@
 import Array.*;
+import Educative.SlidingWindow.AverageOfAllContigousArrayOfSizeK;
+import Educative.SlidingWindow.LongestSubstringWithNoMoreThanKDistinctCharacters;
+import Educative.SlidingWindow.NoRepeatSubstring;
+import Educative.SlidingWindow.SmallestSubarrayWithAGivenSum;
+import Graphs.BoggleBoard;
 import Graphs.RiverSizes;
 import Recursion.Factorial;
 import Recursion.PermutationsOfAString;
+import Recursion.PermutationsOfArray;
 import Sorting.HeapSort;
 import Sorting.MergeSort;
 import Sorting.QuickSort;
+import Strings.CaeserCipherEncryptor;
+import Strings.RunLengthEncoding;
+import com.sun.source.tree.CaseTree;
 import searching.BinarySearch;
 import searching.FindTheMajorityElement;
+import searching.SearchInASortedMatrix;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /*
@@ -154,9 +166,85 @@ public class CompetitiveCodingMain {
         System.out.println("result is:"+searchInA2dArrayLeetCode.searchMatrix(matrix,13));*/
 
 
-        FindTheMajorityElement findTheMajorityElement = new FindTheMajorityElement();
+        /*FindTheMajorityElement findTheMajorityElement = new FindTheMajorityElement();
 
-        System.out.println("majority element is:"+findTheMajorityElement.majorityElement(new int[]{2,2,1,1,1,2,2}));
+        System.out.println("majority element is:"+findTheMajorityElement.majorityElement(new int[]{2,2,1,1,1,2,2}));*/
+
+        /*String[] stringwords = new String[]{"this","is","not","a","simple","boggle","board","test","REPEATED","NOTRE-PEATED"};
+
+        char[][] board = new char[][]{
+                {'t','h','i','s','i','s','a'},
+                {'s','i','m','p','l','e','x'},
+                {'b','x','x','x','x','e','b'},
+                {'x','o','g','g','l','x','o'},
+                {'x','x','x','D','T','r','a'},
+                {'R','E','P','E','A','d','x'},
+                {'x','x','x','x','x','x','x'},
+                {'N','O','T','R','E','-','P'},
+                {'x','x','D','E','T','A','E'},
+        };
+
+        List<String> answer = BoggleBoard.boggleBoard(board,stringwords);
+
+        for(String word:answer)
+        {
+            System.out.print(word+" ");
+        }*/
+
+/*        MajorityElementTwo majorityElementTwo = new MajorityElementTwo();
+        List<Integer> result = majorityElementTwo.majorityElement(new int[]{4,2,1,1});
+
+        for(Integer ans:result)
+        {
+            System.out.print(ans+" ");
+        }*/
+
+
+        /*AverageOfAllContigousArrayOfSizeK averageOfAllContigousArrayOfSizeK = new AverageOfAllContigousArrayOfSizeK();
+        for(double ans: averageOfAllContigousArrayOfSizeK.findAverages(5,new int[]{1, 3, 2, 6, -1, 4, 1, 8, 2}))
+        {
+            System.out.print(ans+ " ");
+        }*/
+
+
+/*
+        SmallestSubarrayWithAGivenSum smallestSubarrayWithAGivenSum = new SmallestSubarrayWithAGivenSum();
+        int output = smallestSubarrayWithAGivenSum.findMinSubArray(7,new int[]{2,1,5,2,3,2});
+        System.out.println("output:"+output);
+*/
+//        System.out.println(""+LongestSubstringWithNoMoreThanKDistinctCharacters.findLength("araaci",2));
+    /*    int[][] newArray = new int[][]{{1,4,7,12,15,1000},
+                {2,5,19,31,32,1001},
+                {3,8,24,33,35,1002},
+                {40,41,42,44,45,1003},
+                {99,100,103,106,128,1004}};
+        int[] result = SearchInASortedMatrix.searchInSortedMatrix(newArray,44);
+*/
+
+        /*String encryptedResult = CaeserCipherEncryptor.caesarCypherEncryptor("abc",52);
+        System.out.println(encryptedResult+"encryptedResult");
+*/
+
+        /*RunLengthEncoding runLengthEncoding = new RunLengthEncoding();
+        System.out.println("Run length Encoded String is:"+runLengthEncoding.runLengthEncoding(" "));
+*/
+
+/*
+        List<Integer> exampleArrayList = new ArrayList<>();
+        exampleArrayList.add(1);
+        exampleArrayList.add(2);
+        exampleArrayList.add(3);
+
+        PermutationsOfArray.getPermutations(exampleArrayList);
+*/
+/*
+        NoRepeatSubstring noRepeatSubstring = new NoRepeatSubstring();
+        System.out.println("the max length is:"+noRepeatSubstring.findLength("abccde"));
+*/
+        PermutationsOfArray.getPermutations(new ArrayList<>(Arrays.asList(
+         1,2,3
+        )));
+
 
 
     }
