@@ -11,8 +11,10 @@ import Recursion.PermutationsOfArray;
 import Sorting.HeapSort;
 import Sorting.MergeSort;
 import Sorting.QuickSort;
+import Sorting.ThreeNumberSort;
 import Strings.CaeserCipherEncryptor;
-import Strings.RunLengthEncoding;
+import Strings.LongestPalindromicSubstring;
+ import Strings.RunLengthEncoding;
 import com.sun.source.tree.CaseTree;
 import searching.BinarySearch;
 import searching.FindTheMajorityElement;
@@ -241,13 +243,32 @@ public class CompetitiveCodingMain {
         NoRepeatSubstring noRepeatSubstring = new NoRepeatSubstring();
         System.out.println("the max length is:"+noRepeatSubstring.findLength("abccde"));
 */
-        PermutationsOfArray.getPermutations(new ArrayList<>(Arrays.asList(
+        /*PermutationsOfArray.getPermutations(new ArrayList<>(Arrays.asList(
          1,2,3
-        )));
+        )));*/
 
 
+        /*ThreeNumberSort threeNumberSort = new ThreeNumberSort();
+        int[] result = threeNumberSort.threeNumberSort(new int[]{1,0,0,-1,-1,0,1,1},new int[]{0,1,-1});
+        for(int x:result)
+        {
+            System.out.print(x+" ");
+        }*/
+
+        //System.out.println("Current Length:"+LongestPalindromicSubstring.longestPalindromicSubstring("abaxyzzyxf"));
+
+        /*TrappingRainWater trappingRainWater = new TrappingRainWater();
+        trappingRainWater.trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
+*/
+        MaxNonNegativeSubArray maxSumContiguosArray = new MaxNonNegativeSubArray();
+
+        int[] ans = maxSumContiguosArray.maxset(new int[]{ 756898537, -1973594324, -2038664370, -184803526, 1424268980  });
+
+        for(int i = 0; i < ans.length ; i++)
+        {
+            System.out.print(ans[i]+" ");
+        }
 
     }
-
 
 }
