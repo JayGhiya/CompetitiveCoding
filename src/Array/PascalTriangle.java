@@ -15,7 +15,7 @@ public class PascalTriangle {
         //initializing an List
         List<List<Integer>> pascalList = new ArrayList<List<Integer>>();
 
-        //initialzing first List
+        //initialzing first Lis
         List<Integer> firstList = new ArrayList<>();
         firstList.add(1);
         pascalList.add(firstList);

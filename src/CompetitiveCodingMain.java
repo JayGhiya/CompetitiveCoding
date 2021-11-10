@@ -5,6 +5,7 @@ import Educative.SlidingWindow.NoRepeatSubstring;
 import Educative.SlidingWindow.SmallestSubarrayWithAGivenSum;
 import Graphs.BoggleBoard;
 import Graphs.RiverSizes;
+import Heaps.JavaHeap;
 import Recursion.Factorial;
 import Recursion.PermutationsOfAString;
 import Recursion.PermutationsOfArray;
@@ -16,6 +17,7 @@ import Strings.CaeserCipherEncryptor;
 import Strings.LongestPalindromicSubstring;
  import Strings.RunLengthEncoding;
 import com.sun.source.tree.CaseTree;
+import microsoft.miscelllanous.SimpleSortedUsingStringCompression;
 import searching.BinarySearch;
 import searching.FindTheMajorityElement;
 import searching.SearchInASortedMatrix;
@@ -260,15 +262,53 @@ public class CompetitiveCodingMain {
         /*TrappingRainWater trappingRainWater = new TrappingRainWater();
         trappingRainWater.trap(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
 */
-        MaxNonNegativeSubArray maxSumContiguosArray = new MaxNonNegativeSubArray();
+        /*MaxNonNegativeSubArray maxSumContiguosArray = new MaxNonNegativeSubArray();
 
         int[] ans = maxSumContiguosArray.maxset(new int[]{ 756898537, -1973594324, -2038664370, -184803526, 1424268980  });
 
         for(int i = 0; i < ans.length ; i++)
         {
             System.out.print(ans[i]+" ");
-        }
+        }*/
 
+/*
+        AddOneToNumber addOneToNumber = new AddOneToNumber();
+        int[] result = addOneToNumber.plusOne(new int[]{1,2,9});
+*/
+/*
+
+        for(int i = 0; i <result.length;i++)
+
+        {
+            System.out.print(result[i]+" ");
+        }
+*/
+
+       /* MaximumGap maximumGap = new MaximumGap();
+        System.out.println("max gap is"+maximumGap.maximumGap(new int[]{3,6,9,1}));
+*/
+
+        /*CheckKeyInEverySegment checkKeyInEverySegment = new CheckKeyInEverySegment();
+        System.out.println(""+checkKeyInEverySegment.findXinKWindowSize(11,new int[]{4,5,2,4,9,3,1,7,3,11,3},3,3));*/
+
+       /* MinAndMaxInAArray minAndMaxInAArray = new MinAndMaxInAArray();
+        minAndMaxInAArray.getMinAndMax(new int[]{12,1234,45,67,1},5);*/
+
+        //kth max/min element
+/*
+        JavaHeap javaHeap = new JavaHeap();
+        javaHeap.convertArrayIntoMinHeap(new int[]{1,3,5,4,6,13,10,9,8,15,17});
+*/
+
+/*
+        IsoMorPhicStrings isoMorPhicStrings = new IsoMorPhicStrings();
+        boolean result = isoMorPhicStrings.isPairIsomorphic("css","dll");
+        System.out.println("result is:"+result);
+*/
+
+        // SimpleSortedUsingStringCompression simpleSortedUsingStringCompression = new SimpleSortedUsingStringCompression();
+        // System.out.println(simpleSortedUsingStringCompression.compress("aabbbcddddeeeeef"));
+        
     }
 
 }
