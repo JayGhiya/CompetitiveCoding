@@ -15,7 +15,7 @@ import Sorting.QuickSort;
 import Sorting.ThreeNumberSort;
 import Strings.CaeserCipherEncryptor;
 import Strings.LongestPalindromicSubstring;
- import Strings.RunLengthEncoding;
+import Strings.RunLengthEncoding;
 import com.sun.source.tree.CaseTree;
 import microsoft.miscelllanous.SimpleSortedUsingStringCompression;
 import searching.BinarySearch;
